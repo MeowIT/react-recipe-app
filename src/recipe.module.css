@@ -1,0 +1,16 @@
+
+.recipes{
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px black;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #e2dfe9;
+  align-items: center;
+  min-width: 30%;
+  max-width: 30%;
+  }
+  
+ 

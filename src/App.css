@@ -1,0 +1,78 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+}
+  .search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  border-radius: 8px;
+  margin-right: 25px;
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: plum;
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 35px;
+  line-height: 5px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.search-button:hover,
+.search-button:focus {
+  background-color: #F082AC;
+}
+
+.recipe{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+h1{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 80px;
+  margin: auto;
+  text-align: center;
+  text-shadow: 2px 3px rgba(0, 0, 0, 0.212);
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+p{
+  font-family: 'Dosis', sans-serif;
+}
+ol{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+img{
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px black;
+}
