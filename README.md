@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-A small recipe app where you can search for recipes <3 
+A small app where you can search for recipes <3 
 
 ## Available Scripts
 
